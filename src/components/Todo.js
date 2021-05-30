@@ -39,8 +39,12 @@ const Todo = () => {
                 </div>
 
 
-                <div className="">
-
+                <div className="showItems">
+                        <button className="btn"
+                        onClick={()=> dispatch(removeTodo())}
+                        >
+                        <span>Remove All</span>
+                        </button>
                 </div>
             </div>
         </div>
